@@ -1,0 +1,37 @@
+# [gpg "ssh"]
+# 	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+# [user]
+# 	signingkey = UPDATE_ME
+# 	name = UPDATE_ME
+# 	email = UPDATE_ME
+
+# [gpg]
+# 	format = ssh
+
+# [commit]
+# 	gpgsign = true
+
+[alias]
+    s = status
+    co = checkout
+    cob = checkout -b 
+    br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+    undo = reset HEAD~1 --mixed
+    res = !git reset --hard
+    done = !git push origin HEAD
+    lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+    
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
