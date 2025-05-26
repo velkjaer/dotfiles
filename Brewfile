@@ -53,6 +53,9 @@ brew 'virtualenv'
 brew 'cosign'
 brew 'asyncapi'
 brew 'telnet'
+brew 'docker'
+brew 'temporal'
+
 
 # Cloud Development
 brew 'azure-cli'  # Azure CLI
@@ -100,7 +103,6 @@ cask 'tableplus'
 cask 'tuple'
 cask 'visual-studio-code'
 # cask 'github'
-# cask 'docker'
 
 # Quicklook
 cask 'qlmarkdown'
