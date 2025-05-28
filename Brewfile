@@ -1,7 +1,3 @@
-# Taps
-tap 'homebrew/cask-fonts'
-tap 'homebrew/bundle'
-
 # General tools
 brew 'bash' # Latest Bash version
 brew 'fish' # Fish shell
@@ -33,6 +29,7 @@ brew 'brew-cask-completion'
 brew 'curl'
 brew 'tmux'
 brew 'fisher' # Fish shell plugin manager
+brew 'starship'
 
 # Development
 brew 'imagemagick'
@@ -51,7 +48,6 @@ brew 'golangci-lint'
 brew 'dive'
 brew 'virtualenv'
 brew 'cosign'
-brew 'asyncapi'
 brew 'telnet'
 brew 'docker'
 brew 'temporal'
@@ -86,16 +82,18 @@ brew 'gifsicle'
 # Apps
 cask '1password'
 cask 'caffeine'
+cask 'raycast'
 cask 'discord'
 cask 'figma'
 cask 'firefox'
-
 cask 'ghostty'
 cask 'google-chrome'
 cask 'helo'
 cask 'httpie'
 cask 'imageoptim'
 cask 'loom'
+cask 'notion'
+cask 'notion-mail'
 cask 'reflex'
 cask 'rectangle'
 cask 'slack'
@@ -110,6 +108,7 @@ cask 'quicklook-json'
 
 # Fonts
 cask 'font-lato'
+cask 'font-monaspace'
 cask 'font-open-sans'
 cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
