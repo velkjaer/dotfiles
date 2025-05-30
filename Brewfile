@@ -100,6 +100,7 @@ cask 'slack'
 cask 'tableplus'
 cask 'tuple'
 cask 'visual-studio-code'
+cask 'grammarly-desktop'
 # cask 'github'
 
 # Quicklook
