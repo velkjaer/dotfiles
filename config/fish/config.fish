@@ -16,7 +16,6 @@ if status is-interactive
     abbr tf terraform
     abbr d docker
     abbr dco docker-compose
-    abbr gpsup "git push --set-upstream origin $(git_current_branch)"
     abbr ghce "gh copilot explain"  
     abbr ghcs "gh copilot suggest"
 
