@@ -101,7 +101,10 @@ cask 'tableplus'
 cask 'tuple'
 cask 'visual-studio-code'
 cask 'grammarly-desktop'
-# cask 'github'
+cask 'messenger'
+cask 'spotify'
+cask 'whatsapp'
+cask 'notion-calendar'
 
 # Quicklook
 cask 'qlmarkdown'
