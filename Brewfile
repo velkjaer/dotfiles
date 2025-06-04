@@ -50,6 +50,7 @@ brew 'dive'
 brew 'virtualenv'
 brew 'cosign'
 brew 'telnet'
+brew 'colima'
 brew 'docker'
 brew 'temporal'
 
