@@ -13,7 +13,8 @@ function install_fisher_plugins --description "Install Fisher plugins"
       "patrickf1/fzf.fish" \
       "jorgebucaran/nvm.fish" \
       "jorgebucaran/getopts.fish" \
-      "jhillyerd/plugin-git";
+      "jhillyerd/plugin-git" \
+      "danhper/fish-ssh-agent";
       fisher install $plugin
     end
 end
