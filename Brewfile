@@ -10,6 +10,7 @@ brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'grep'
+brew 'gnupg'
 brew 'httpie'
 brew 'jq'
 brew 'yq'
@@ -51,7 +52,6 @@ brew 'cosign'
 brew 'telnet'
 brew 'docker'
 brew 'temporal'
-
 
 # Cloud Development
 brew 'azure-cli'  # Azure CLI
@@ -105,6 +105,8 @@ cask 'messenger'
 cask 'spotify'
 cask 'whatsapp'
 cask 'notion-calendar'
+cask 'google-drive'
+cask '1password-cli'
 
 # Quicklook
 cask 'qlmarkdown'
