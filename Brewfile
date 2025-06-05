@@ -108,6 +108,7 @@ cask 'whatsapp'
 cask 'notion-calendar'
 cask 'google-drive'
 cask '1password-cli'
+cask 'claude'
 
 # Quicklook
 cask 'qlmarkdown'
