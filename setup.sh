@@ -23,7 +23,7 @@ brew update
 brew bundle --file ./Brewfile
 
 # Create a projects directories
-mkdir -p "${HOME}/Code/{Personal,Work}"
+mkdir -p "${HOME}"/Code/{Personal,Work}
 
 # Prepare Fish shell configuration
 fish "./scripts/fish.fish"
