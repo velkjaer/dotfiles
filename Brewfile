@@ -31,6 +31,7 @@ brew 'curl'
 brew 'tmux'
 brew 'fisher' # Fish shell plugin manager
 brew 'starship'
+brew 'uv'
 
 # Development
 brew 'imagemagick'
@@ -53,6 +54,7 @@ brew 'telnet'
 brew 'colima'
 brew 'docker'
 brew 'temporal'
+brew 'hadolint'
 
 # Cloud Development
 brew 'azure-cli'  # Azure CLI
@@ -81,6 +83,7 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Apps
+cask 'lm-studio'
 cask '1password'
 cask 'caffeine'
 cask 'raycast'
