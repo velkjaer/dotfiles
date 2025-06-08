@@ -32,6 +32,8 @@ brew 'tmux'
 brew 'fisher' # Fish shell plugin manager
 brew 'starship'
 brew 'uv'
+brew 'cookiecutter'
+brew 'just'
 
 # Development
 brew 'imagemagick'
