@@ -57,6 +57,7 @@ brew 'colima'
 brew 'docker'
 brew 'temporal'
 brew 'hadolint'
+brew 'opentofu'
 
 # Cloud Development
 brew 'azure-cli'  # Azure CLI
