@@ -57,7 +57,11 @@ brew 'colima'
 brew 'docker'
 brew 'temporal'
 brew 'hadolint'
+
+# Infrastructure as code
 brew 'opentofu'
+brew 'tfsec'
+brew 'tflint'
 
 # Cloud Development
 brew 'azure-cli'  # Azure CLI
