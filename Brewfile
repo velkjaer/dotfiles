@@ -62,6 +62,7 @@ brew 'hadolint'
 brew 'opentofu'
 brew 'tfsec'
 brew 'tflint'
+brew 'terraform-docs'
 
 # Cloud Development
 brew 'azure-cli'  # Azure CLI
