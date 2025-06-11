@@ -55,8 +55,11 @@ brew 'cosign'
 brew 'telnet'
 brew 'colima'
 brew 'docker'
+brew 'docker-buildx'
+brew 'docker-compose'
 brew 'temporal'
 brew 'hadolint'
+brew 'act'
 
 # Infrastructure as code
 brew 'opentofu'
@@ -120,6 +123,7 @@ cask 'notion-calendar'
 cask 'google-drive'
 cask '1password-cli'
 cask 'claude'
+cask 'cursor'
 
 # Quicklook
 cask 'qlmarkdown'
