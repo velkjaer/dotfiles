@@ -60,6 +60,7 @@ brew 'docker-compose'
 brew 'temporal'
 brew 'hadolint'
 brew 'act'
+brew 'oras'
 
 # Infrastructure as code
 brew 'opentofu'
