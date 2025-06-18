@@ -1,3 +1,6 @@
+# Taps
+brew 'supabase/tap/supabase'
+
 # General tools
 brew 'bash' # Latest Bash version
 brew 'fish' # Fish shell
@@ -61,6 +64,7 @@ brew 'temporal'
 brew 'hadolint'
 brew 'act'
 brew 'oras'
+brew 'supabase'
 
 # Infrastructure as code
 brew 'opentofu'
