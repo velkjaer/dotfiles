@@ -32,6 +32,9 @@ fish "./scripts/fish.fish"
 bash "./scripts/gh-setup.sh"
 bash "./scripts/clone.sh"
 
+# Prepare dev environment
+bash "./scripts/docker.sh"
+
 # Symlink the Mackup config file to the home directory
 if [[ ! -L "${HOME}/.mackup.cfg" ]]; then
   echo "Creating symlink for Mackup config file..."
