@@ -1,6 +1,3 @@
-# Taps
-brew 'supabase/tap/supabase'
-
 # General tools
 brew 'bash' # Latest Bash version
 brew 'fish' # Fish shell
@@ -37,6 +34,7 @@ brew 'starship'
 brew 'uv'
 brew 'cookiecutter'
 brew 'just'
+brew 'hurl'
 
 # Development
 brew 'imagemagick'
@@ -110,6 +108,7 @@ cask 'ghostty'
 cask 'google-chrome'
 cask 'helo'
 cask 'httpie'
+cask 'postman'
 cask 'imageoptim'
 cask 'loom'
 cask 'notion'
