@@ -63,6 +63,7 @@ brew 'hadolint'
 brew 'act'
 brew 'oras'
 brew 'supabase'
+brew 'jwt-cli'
 
 # Infrastructure as code
 brew 'opentofu'
