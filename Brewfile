@@ -129,6 +129,8 @@ cask 'google-drive'
 cask '1password-cli'
 cask 'claude'
 cask 'cursor'
+cask 'gitbutler';
+cask 'dbeaver-community'
 
 # Quicklook
 cask 'qlmarkdown'
