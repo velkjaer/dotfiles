@@ -35,6 +35,7 @@ brew 'uv'
 brew 'cookiecutter'
 brew 'just'
 brew 'hurl'
+brew 'watch'
 
 # Development
 brew 'imagemagick'
