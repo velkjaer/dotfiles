@@ -89,6 +89,7 @@ brew 'kubeconform'
 brew 'kafkactl'
 brew 'kubectx'
 brew 'vcluster'
+brew 'k6'
 
 
 # Spatie Medialibrary
@@ -132,6 +133,7 @@ cask 'claude'
 cask 'cursor'
 cask 'gitbutler';
 cask 'dbeaver-community'
+cask 'k6-studio'
 
 # Quicklook
 cask 'qlmarkdown'
