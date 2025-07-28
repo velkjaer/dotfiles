@@ -90,6 +90,7 @@ brew 'kafkactl'
 brew 'kubectx'
 brew 'vcluster'
 brew 'k6'
+brew 'talosctl'
 
 
 # Spatie Medialibrary
